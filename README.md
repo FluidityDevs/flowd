@@ -1,5 +1,10 @@
-# flowd - The core of Flow, all in one small package.
-Automatic persistence agent for Flow, although not **dependent** on Flow
+# flowd Plus - An expansion on flowd
+Still an automated Flow persistence agent, now with added optional functionality.
+
+### PLUS EXCLUSIVES
+ - Automatically patches Microsoft Edge **fully** and additional spyware
+ - Patches specific functionality of the test user account
+ - NOT compatible with standard TestPass or flowd
 
 ### KEY FEATURES
  - Automatic updates
@@ -18,4 +23,4 @@ Automatic persistence agent for Flow, although not **dependent** on Flow
 
  - Flow, latest version is available at https://github.com/FluidityDevs/Flow, will automatically install flowd
  - The manual installation script, available under the releases section here (Requires already having administrator privileges as a prerequisite)
- - Manually copying over the flowd binary and scheduling a startup task, if that's what you're into.
+ - Manually copying over the flowd plus script and scheduling a startup task, if that's what you're into.
