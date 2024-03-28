@@ -1,14 +1,12 @@
 @ECHO OFF
 
-echo Welcome to the flowd manual update utility!
+echo Welcome to the flowd plus manual update utility!
 timeout /nobreak /t 2
 
-echo Applying updates (don't be concerned about copy failures!)...
+echo Applying updates...
 xcopy "%~dp0\flowd.bat" C:\Windows\system32\flowd.bat /y
-xcopy "D:\Programs\Tools for flowd\flowd.bat" C:\Windows\system32\flowd.bat /y
-xcopy %USERPROFILE%\Downloads\flowd.bat C:\Windows\system32\flowd.bat /y
-xcopy D:\flowd.bat C:\Windows\system32\flowd.bat /y
-echo Successfully updated flowd.
+xcopy "%~dp0\pass.bat" C:\Windows\system32\pass.bat /y
+echo Successfully updated flowd and TestPass.
 
 :prompt
 set /P c=Do you want to restart now to apply changes? (Y/N) 

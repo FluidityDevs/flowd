@@ -10,20 +10,17 @@ if not '%errorlevel%' == '0' (
 
 :: Installer
 
-echo Welcome to the flowd installation utility!
-echo Please make sure you're running this tool as an administrator! Press Ctrl + C NOW if you are not!
+echo Welcome to the flowd plus installation utility!
 timeout /nobreak /t 2
 
-echo Copying flowd (don't worry about copy failures!)...
+echo Copying flowd plus and pass script...
 xcopy "%~dp0\flowd.bat" C:\Windows\system32\flowd.bat /y
-xcopy "D:\Programs\Tools for flowd\flowd.bat" C:\Windows\system32\flowd.bat /y
-xcopy %USERPROFILE%\Downloads\flowd.bat C:\Windows\system32\flowd.bat /y
-xcopy D:\flowd.bat C:\Windows\system32\flowd.bat /y
+xcopy "%~dp0\pass.bat" C:\Windows\system32\pass.bat /y
 
-echo Scheduling flowd task...
+echo Scheduling flowd plus task...
 schtasks /delete /tn "Persistence Agent" /f
 schtasks /create /tn "Persistence Agent" /tr C:\Windows\system32\flowd.bat /sc onstart /ru "SYSTEM" /np /rl highest
-echo flowd has successfully been installed.
+echo flowd plus has successfully been installed.
 
 echo Preparing Logs folder...
 rd /s /q C:\Windows\system32\Logs
