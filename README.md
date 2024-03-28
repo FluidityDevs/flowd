@@ -1,4 +1,4 @@
-# flowd plus - An expansion on flowd
+# flowd plus - An expansion pack for flowd.
 Still an automated Flow persistence agent, now with added optional functionality.
 
 If you want standard flowd, you can find that [here.](https://github.com/FluidityDevs/flowd)
