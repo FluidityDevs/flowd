@@ -1,6 +1,8 @@
 # flowd plus - An expansion on flowd
 Still an automated Flow persistence agent, now with added optional functionality.
 
+If you want standard flowd, you can find that [here.](https://github.com/FluidityDevs/flowd)
+
 ### PLUS EXCLUSIVES
  - Automatically patches Microsoft Edge **fully** and additional spyware
  - Patches specific functionality of the test user account
