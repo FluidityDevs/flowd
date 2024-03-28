@@ -22,9 +22,9 @@ If you want standard flowd, you can find that [here.](https://github.com/Fluidit
 
 ### INSTALLATION METHODS
 
- - Flow, latest version is available at https://github.com/FluidityDevs/Flow, will automatically install flowd
  - The manual installation script, available under the releases section here (Requires already having administrator privileges as a prerequisite)
- - Manually copying over the flowd plus script and scheduling a startup task, if that's what you're into.
+ - Manually copying over the flowd plus script and scheduling a startup task, if that's what you're into
+ - The flowd or flowd plus manual update script (available from the Releases section) will allow you to transfer a flowd installation to a flowd plus one
 
 ### NOTE
 
