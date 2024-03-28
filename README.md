@@ -1,4 +1,4 @@
-# flowd Plus - An expansion on flowd
+# flowd plus - An expansion on flowd
 Still an automated Flow persistence agent, now with added optional functionality.
 
 ### PLUS EXCLUSIVES
