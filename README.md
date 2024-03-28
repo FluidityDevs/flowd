@@ -3,6 +3,7 @@ Automatic persistence agent for Flow, although not **dependent** on Flow
 
 ### KEY FEATURES
  - Automatic updates
+ - Frequently updated exploits
  - User-modifiable
  - Logging via logKit
  - Manual installation and updates available
