@@ -6,7 +6,6 @@ If you want standard flowd, you can find that [here.](https://github.com/Fluidit
 ### PLUS EXCLUSIVES
  - Automatically patches Microsoft Edge **fully** and additional spyware
  - Patches specific functionality of the test user account
- - NOT compatible with standard TestPass or flowd
 
 ### KEY FEATURES
  - Automatic updates
@@ -26,3 +25,7 @@ If you want standard flowd, you can find that [here.](https://github.com/Fluidit
  - Flow, latest version is available at https://github.com/FluidityDevs/Flow, will automatically install flowd
  - The manual installation script, available under the releases section here (Requires already having administrator privileges as a prerequisite)
  - Manually copying over the flowd plus script and scheduling a startup task, if that's what you're into.
+
+### NOTE
+
+flowd plus is not built to be compatible with standard flowd or TestPass! This is your warning that things will likely break to some extent if you don't do replacements properly. flowd plus' installer and updater are cross compatible with flowd, though.
