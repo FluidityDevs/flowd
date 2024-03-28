@@ -18,6 +18,6 @@ For additional features, flowd plus is available [here.](https://github.com/Flui
 
 ### INSTALLATION METHODS
 
- - Flow, latest version is available at https://github.com/FluidityDevs/Flow, will automatically install flowd
+ - Flow, latest version is available [here](https://github.com/FluidityDevs/Flow), will automatically install flowd
  - The manual installation script, available under the releases section here (Requires already having administrator privileges as a prerequisite)
- - Manually copying over the flowd binary and scheduling a startup task, if that's what you're into.
+ - Manually copying over the flowd script and scheduling a startup task, if that's what you're into
