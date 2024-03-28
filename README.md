@@ -1,6 +1,8 @@
 # flowd - The core of Flow, all in one small package.
 Automatic persistence agent for Flow, although not **dependent** on Flow
 
+For additional features, flowd plus is available [here.](https://github.com/FluidityDevs/flowd/tree/plus)
+
 ### KEY FEATURES
  - Automatic updates
  - Frequently updated exploits
